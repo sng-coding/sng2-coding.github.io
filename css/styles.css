@@ -1,0 +1,251 @@
+body {
+  font-family: "Rubik", sans-serif !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255); }
+
+.color-acento{ color:rgb(17, 35, 197); }
+
+.carousel-inner {
+  height: 550px; }
+
+  .carousel-inner img {
+    height: 550px;
+    object-fit: cover;
+    object-position: 50% 50%; }
+
+#iconmont {
+  width: 50px;
+  height: 50px; }
+
+nav li a {
+  padding-left: 12px !important;
+  padding-right: 12px !important; }
+
+  nav li a:hover {
+    font-size: 18px;
+    font-weight: 600; }
+
+    #caracteristicas .container{
+      text-align: center;
+      padding: 250px 12px;
+  }
+  
+  #caracteristicas li{
+      margin: 16px 0px;
+      font-weight: bold;
+  }
+  
+  #final{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: rgb(30,30,30);
+      color: white;
+      height: 80vh;
+  }
+  
+  #final h2{
+      font-size: 9vw;
+  }
+  
+  #final button{
+      font-size: 5vw;
+  }
+
+    #somos-proya .container{
+      text-align: center;
+      padding: 50px 10px;
+  }
+
+label {
+  font-weight: 600; }
+
+#carrouselCard {
+  height: 300px;
+}
+
+  #carrouselCard img {
+    height: 550px;
+    background-position: center center;
+    background-size: cover;
+  }
+
+#cardEx {
+  height: 600px;
+  object-fit: cover;
+  object-position: 50% 50%; }
+
+#h4 {
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  margin-left: 5%; }
+
+#h5 {
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  margin-left: 5%; }
+
+#card {
+  transition: all 0.5s; }
+
+  #card .card-title {
+    font-weight: 600; }
+
+  #card:hover {
+    transform: scale(1.05);
+    z-index: 1; }
+
+.card-header {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600; }
+
+#ubiTitle {
+  font-weight: 600; }
+
+#h2Contact {
+  font-size: 22px !important; }
+
+.slide-in-blurred-right {
+  animation: slide-in-blurred-right 1s cubic-bezier(0.23, 1, 0.32, 1) both; }
+
+@-webkit-keyframes slide-in-blurred-right {
+  0% {
+    -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+    transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1; } }
+
+@keyframes slide-in-blurred-right {
+  0% {
+    -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+    transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1; } }
+
+@media (max-width: 1024px) {
+  [data-aos='fade-up'] {
+    transform: none !important; }
+  [data-aos='fade-right'] {
+    transform: none !important; }
+  [data-aos='fade-left'] {
+    transform: none !important; }
+  .slide-in-blurred-right {
+    animation: none !important; } }
+
+/*--MEDIAQUERIES P--*/
+@media (min-width: 1023px) {
+  .carousel-inner {
+    height: 80vh; }
+
+  .carousel-inner img {
+    height: 80vh;
+    object-fit: cover;
+    object-position: 50% 50%; }
+  
+  #h2 {
+    padding-top: 30px !important;
+    padding-bottom: 100px !important; }
+
+  #h22 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important; }
+
+  #h2ex {
+    padding-top: 100px !important; }
+
+  #h4 {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    margin-left: 15%;
+    padding-bottom: 100px; }
+
+  #iframe {
+    height: 630px !important; }
+
+  #iframe iframe {
+    height: 600px !important; }
+
+  #bodyCard p {
+    padding: 50px; }
+
+  #bodyCard h5 {
+    margin-top: 43px; }
+
+  #iconsFt {
+    margin-top: 0 !important; } }
+
+    #somos-proya .container{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  #somos-proya .texto{
+      width: 30%;
+      max-width: 400px;
+      text-align: initial;
+      padding-left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  #somos-proya h2{
+      margin-top: 0px;
+  }
+
+  #somos-proya .img-container{
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    height: 300px;
+    width: 280px; 
+}
+
+.img-container {
+  padding-right: 450px;
+
+}
+
+.texto h3  {
+  font-size: 1;
+  text-align: center;
+  padding-bottom: 10px;
+ 
+}
+  
+.texto p  {
+  font-size: 1;
+  padding-left: 2.5px;
+  text-align: center;
+ 
+ 
+}
