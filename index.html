@@ -12,6 +12,9 @@
     <link rel="icon" type="image/jpg" href="images/logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -22,8 +25,8 @@
                                             <!--------------HEADER------------->
 
     <header> 
-        <nav class="navbar  navbar-expand-lg navbar-light bg-light ml-auto "  >
-          <div class="container"  >
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light ml-auto " id="containerConq">
+          <div class="container" id="containerConq" >
             <a class="navbar-brand" href="#" aria-label="Redireccion al inicio"><img src="images/logo.jpg" id="iconmont" alt="iconoAguila"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -54,7 +57,7 @@
 
       <h1 class="display-5 text-center p-3" id="h1"> Conquer Importados</h1>
 
-      <div class="container">
+      <div class="container" id="containerCar">
             <div id="carouselExampleFade" class="carousel slide carousel-fade slide-in-blurred-right" data-bs-ride="carousel">
           <div class="carousel-inner shadow-lg">
             <div class="carousel-item active ">
@@ -83,15 +86,18 @@
             <div class="img-container">
               <img src="images/ImportUSA.jpg">
             </div>
-            <div class="texto">
+      
 
-                <h3>Productos importados directamente de <span class="color-acento">USA!</span></h3>
-
-                <p>Somos importadores directos. Todos nuestros equipos provienen de Miami, USA. Nos destacamos por nuestra calidad, seguridad y rapidez. Quedate en tu casa y nosotros te lo llevamos a tu puerta!  </p>
-            </div>
         </div>
+      </section>
 
-    </section>
+        <div class="texto">
+
+        <h3>Productos importados directamente de <span class="color-acento">USA!</span></h3>
+
+          <p>Somos importadores directos. Todos nuestros equipos provienen de Miami, USA. Nos destacamos por nuestra calidad, seguridad y rapidez. Quedate en tu casa y nosotros te lo llevamos a tu puerta!  </p>
+        
+        </div>
 
     </header>
 
@@ -376,7 +382,7 @@
           <div class="card shadow-lg">
             <div class="card-body">
 
-              <div class="container">
+              <div class="container" id="containerMail">
                 <form class="row">
                   <div class="col-6">
                     <label for="nameInput" class="form-label">Nombre:</label>
@@ -416,7 +422,7 @@
                   </div>
 
                   <div class="col-6">
-                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    <button class="btn btn-primary" type="submit" id="buttonEnv">Enviar</button>
                   </div>
 
                 </form>
